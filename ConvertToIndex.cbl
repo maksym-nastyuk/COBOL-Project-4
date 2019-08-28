@@ -65,6 +65,7 @@
            05  UNIT-PRICE-IN       PIC 9(04)V99.
            05  REORDER-POINT-IN    PIC 9(03).
            05  SUPPLIER-ID-IN      PIC X(02).
+           05  SUPPLIER-ID-XX      PIC X(02).
        
        FD  INVENT-FILE-OUT
            RECORD CONTAINS 39 CHARACTERS
